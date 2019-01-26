@@ -4,5 +4,7 @@ $(document).ready(function() {
 
     $('.text').css('font-size', '30px');
 
+    $("input[type=password]").css('background', 'red');
+
 });
 
