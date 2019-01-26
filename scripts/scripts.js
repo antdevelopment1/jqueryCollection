@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
-    console.log(document.querySelectorAll('p'));
+    $('#list').css('font-size', '30px');
 
-    console.log($('form, ul p'));
-    
+    $('.text').css('font-size', '30px');
+
 });
+
