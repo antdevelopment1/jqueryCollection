@@ -1,13 +1,12 @@
 $(document).ready(function() {
 
-    $('#list').css('font-size', '30px');
+    $('li:even').css('background', 'green');
 
-    $('.text').css('font-size', '30px');
-    
-    $("input:radio").css('margin', '30px');
+    $('li:odd').css('background', 'yellow');
 
-    $("input:checked").css('margin', '30px');
+    $('li:first').css('background', 'red');
 
+    $('li:last').css('background', 'blue');
 
 });
 
