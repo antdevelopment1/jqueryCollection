@@ -1,12 +1,10 @@
 $(document).ready(function() {
 
-    $('li:even').css('background', 'green');
+    $('.parent p:first-child').css('background', 'red');
 
-    $('li:odd').css('background', 'yellow');
+    $('.parent p:last-of-type').css('background', 'blue');
 
-    $('li:first').css('background', 'red');
-
-    $('li:last').css('background', 'blue');
+    $('.parent p:nth-child(2').css('background', 'green');
 
 });
 
