@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
-   console.log( $('.parent').find("p").css("background", "blue"));
+
+
+
+$('.hobbies').parents('.parent').css("background", "yellow");
+$('.user').parent().css("background", "red");
+
 
 });
 
